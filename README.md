@@ -2,7 +2,7 @@
 
 A lightweight web-based chatbot app using Streamlit and OpenAI (modern API client). 
 
-## Ì∑† What this app does
+##  What this app does
 
 - Converts your existing console-based OpenAI sample into a friendly browser app.
 - Lets users enter questions and receive answers in a chat-centered UI.
@@ -10,7 +10,7 @@ A lightweight web-based chatbot app using Streamlit and OpenAI (modern API clien
 - Supports model picking and custom system instructions from a sidebar.
 - Includes clear error handling and a clear-history button.
 
-## Ì∫Ä Why Streamlit?
+##  Why Streamlit?
 
 Streamlit turns Python scripts into interactive web apps with minimal code. 
 
@@ -24,7 +24,7 @@ Streamlit turns Python scripts into interactive web apps with minimal code.
 - Python 3.8+
 - `streamlit`, `openai`, `python-dotenv`
 
-## Ìª†Ô∏è Install dependencies
+##  Install dependencies
 
 ```bash
 # consider using venv
@@ -34,7 +34,7 @@ venv\Scripts\activate
 pip install streamlit openai python-dotenv
 ```
 
-## Ì¥ê Setup
+##  Setup
 
 1. Create `.env` in the project root:
 
@@ -50,8 +50,8 @@ OPENAI_API_KEY=your_openai_api_key
 streamlit run App.py
 ```
 
-## Ì∑© Files
-
+##  Files
+.
 - `main.py` : original console sample.
 - `App.py` : Streamlit app for web usage.
 - `README.md`: this documentation.
